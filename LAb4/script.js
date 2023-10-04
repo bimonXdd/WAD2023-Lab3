@@ -56,5 +56,22 @@ function compareVariables(var1, var2) {
 
 console.log(compareVariables ("asd", "asd"));
 
+function fib(n){
+    let a=0
+    let b=1
+    let number=0;
+    console.log(a)
+    console.log(b)
+    for(let i = 2;i<=n;i++){
+        number = a+b;
+        console.log(number)
+        a=b
+        b=number 
+
+    }
+
+}
+fib(3)
+
 
 
